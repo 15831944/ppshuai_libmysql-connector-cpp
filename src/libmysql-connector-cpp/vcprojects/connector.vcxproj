@@ -117,7 +117,7 @@
     </Link>
     <ProjectReference />
     <Lib>
-      <AdditionalDependencies>cdk.lib;xapi.lib;common.lib;devapi.lib;</AdditionalDependencies>
+      <AdditionalDependencies>cdk.lib;xapi.lib;common.lib;xdevapi.lib;</AdditionalDependencies>
     </Lib>
     <Lib>
       <AdditionalLibraryDirectories>$(OutDir)</AdditionalLibraryDirectories>
@@ -164,7 +164,7 @@
     </Link>
     <ProjectReference />
     <Lib>
-      <AdditionalDependencies>cdk.lib;xapi.lib;common.lib;devapi.lib;</AdditionalDependencies>
+      <AdditionalDependencies>cdk.lib;xapi.lib;common.lib;xdevapi.lib;</AdditionalDependencies>
     </Lib>
     <Lib>
       <AdditionalLibraryDirectories>$(OutDir)</AdditionalLibraryDirectories>
@@ -211,7 +211,7 @@
     </Link>
     <ProjectReference />
     <Lib>
-      <AdditionalDependencies>cdk.lib;xapi.lib;common.lib;devapi.lib;</AdditionalDependencies>
+      <AdditionalDependencies>cdk.lib;xapi.lib;common.lib;xdevapi.lib;</AdditionalDependencies>
     </Lib>
     <Lib>
       <AdditionalLibraryDirectories>$(OutDir)</AdditionalLibraryDirectories>
@@ -258,7 +258,7 @@
     </Link>
     <ProjectReference />
     <Lib>
-      <AdditionalDependencies>cdk.lib;xapi.lib;common.lib;devapi.lib;</AdditionalDependencies>
+      <AdditionalDependencies>cdk.lib;xapi.lib;common.lib;xdevapi.lib;</AdditionalDependencies>
     </Lib>
     <Lib>
       <AdditionalLibraryDirectories>$(OutDir)</AdditionalLibraryDirectories>
@@ -280,11 +280,11 @@
     <ProjectReference Include="common\common.vcxproj">
       <Project>{3618764a-1cea-3cf7-860d-ee6f9e4f2019}</Project>
     </ProjectReference>
-    <ProjectReference Include="devapi\devapi.vcxproj">
-      <Project>{1644ee49-5b89-3d9f-91c6-51404c5334b4}</Project>
-    </ProjectReference>
     <ProjectReference Include="xapi\xapi.vcxproj">
       <Project>{c855a506-99ca-3fc4-9677-a70d3a89fda4}</Project>
+    </ProjectReference>
+    <ProjectReference Include="xdevapi\xdevapi.vcxproj">
+      <Project>{a739cd94-734d-43bc-a329-79425fa4ce33}</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

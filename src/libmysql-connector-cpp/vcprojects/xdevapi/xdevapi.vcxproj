@@ -19,10 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{1644EE49-5B89-3D9F-91C6-51404C5334B4}</ProjectGuid>
+    <ProjectGuid>{A739CD94-734D-43BC-A329-79425FA4CE33}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
-    <ProjectName>devapi</ProjectName>
+    <ProjectName>xdevapi</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
