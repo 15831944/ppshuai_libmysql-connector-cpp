@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\mysql-connector-cpp\cdk\protocol\mysqlx\protocol.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\mysql-connector-cpp\cdk\protocol\mysqlx\session.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\mysql-connector-cpp\cdk\protocol\mysqlx\rset.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\mysql-connector-cpp\cdk\protocol\mysqlx\stmt.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\mysql-connector-cpp\cdk\protocol\mysqlx\crud.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\vcprojects\cdk\protocol\mysqlx\protobuf\mysqlx.pb.cc">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\vcprojects\cdk\protocol\mysqlx\protobuf\mysqlx_connection.pb.cc">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\vcprojects\cdk\protocol\mysqlx\protobuf\mysqlx_datatypes.pb.cc">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\vcprojects\cdk\protocol\mysqlx\protobuf\mysqlx_expr.pb.cc">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\vcprojects\cdk\protocol\mysqlx\protobuf\mysqlx_crud.pb.cc">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\vcprojects\cdk\protocol\mysqlx\protobuf\mysqlx_sql.pb.cc">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\vcprojects\cdk\protocol\mysqlx\protobuf\mysqlx_resultset.pb.cc">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\vcprojects\cdk\protocol\mysqlx\protobuf\mysqlx_session.pb.cc">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\vcprojects\cdk\protocol\mysqlx\protobuf\mysqlx_expect.pb.cc">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\vcprojects\cdk\protocol\mysqlx\protobuf\mysqlx_notice.pb.cc">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{63DA31BB-CB56-3128-B6F9-A3E306F83F97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protobuf">
+      <UniqueIdentifier>{25CFEF71-93B4-3356-AB7C-0BA9200F8474}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
