@@ -71,7 +71,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\mysql-connector-cpp\cdk\include;$(SolutionDir)..\vcprojects\cdk\include;$(SolutionDir)..\mysql-connector-cpp\cdk\parser;$(SolutionDir)..\vcprojects\cdk\protocol\mysqlx;$(SolutionDir)..\mysql-connector-cpp\cdk\protobuf\protobuf-2.6.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\..\vcprojects\cdk\include;..\..\..\..\mysql-connector-cpp\cdk\include;..\..\..\..\mysql-connector-cpp\cdk\parser;..\..\..\..\vcprojects\cdk\protocol\mysqlx;..\..\..\..\mysql-connector-cpp\cdk\protobuf\protobuf-2.6.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -102,7 +102,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\mysql-connector-cpp\cdk\include;$(SolutionDir)..\vcprojects\cdk\include;$(SolutionDir)..\mysql-connector-cpp\cdk\parser;$(SolutionDir)..\vcprojects\cdk\protocol\mysqlx;$(SolutionDir)..\mysql-connector-cpp\cdk\protobuf\protobuf-2.6.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\..\vcprojects\cdk\include;..\..\..\..\mysql-connector-cpp\cdk\include;..\..\..\..\mysql-connector-cpp\cdk\parser;..\..\..\..\vcprojects\cdk\protocol\mysqlx;..\..\..\..\mysql-connector-cpp\cdk\protobuf\protobuf-2.6.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -133,7 +133,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\mysql-connector-cpp\cdk\include;$(SolutionDir)..\vcprojects\cdk\include;$(SolutionDir)..\mysql-connector-cpp\cdk\parser;$(SolutionDir)..\vcprojects\cdk\protocol\mysqlx;$(SolutionDir)..\mysql-connector-cpp\cdk\protobuf\protobuf-2.6.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\..\vcprojects\cdk\include;..\..\..\..\mysql-connector-cpp\cdk\include;..\..\..\..\mysql-connector-cpp\cdk\parser;..\..\..\..\vcprojects\cdk\protocol\mysqlx;..\..\..\..\mysql-connector-cpp\cdk\protobuf\protobuf-2.6.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -166,7 +166,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\mysql-connector-cpp\cdk\include;$(SolutionDir)..\vcprojects\cdk\include;$(SolutionDir)..\mysql-connector-cpp\cdk\parser;$(SolutionDir)..\vcprojects\cdk\protocol\mysqlx;$(SolutionDir)..\mysql-connector-cpp\cdk\protobuf\protobuf-2.6.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\..\vcprojects\cdk\include;..\..\..\..\mysql-connector-cpp\cdk\include;..\..\..\..\mysql-connector-cpp\cdk\parser;..\..\..\..\vcprojects\cdk\protocol\mysqlx;..\..\..\..\mysql-connector-cpp\cdk\protobuf\protobuf-2.6.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>

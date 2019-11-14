@@ -71,7 +71,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\mysql-connector-cpp\cdk\include;$(SolutionDir)..\vcprojects\cdk\include;$(SolutionDir)..\mysql-connector-cpp\cdk\parser;$(SolutionDir)..\mysql-connector-cpp\cdk\protobuf\protobuf-2.6.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\vcprojects\cdk\include;..\..\..\mysql-connector-cpp\cdk\include;..\..\..\mysql-connector-cpp\cdk\parser;..\..\..\mysql-connector-cpp\cdk\protobuf\protobuf-2.6.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -102,14 +102,14 @@
       </Command>
     </PreBuildEvent>
     <Lib>
-      <AdditionalDependencies>cdk_parser.lib;cdk_foundation.lib;cdk_mysqlx.lib;cdk_proto_mysqlx.lib;protobuf-lite.lib</AdditionalDependencies>
+      <AdditionalDependencies>protobuf-lite.lib;cdk_parser.lib;cdk_foundation.lib;cdk_mysqlx.lib;cdk_proto_mysqlx.lib;</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(OutDir);</AdditionalLibraryDirectories>
     </Lib>
     <ProjectReference />
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\mysql-connector-cpp\cdk\include;$(SolutionDir)..\vcprojects\cdk\include;$(SolutionDir)..\mysql-connector-cpp\cdk\parser;$(SolutionDir)..\mysql-connector-cpp\cdk\protobuf\protobuf-2.6.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\vcprojects\cdk\include;..\..\..\mysql-connector-cpp\cdk\include;..\..\..\mysql-connector-cpp\cdk\parser;..\..\..\mysql-connector-cpp\cdk\protobuf\protobuf-2.6.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -147,7 +147,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\mysql-connector-cpp\cdk\include;$(SolutionDir)..\vcprojects\cdk\include;$(SolutionDir)..\mysql-connector-cpp\cdk\parser;$(SolutionDir)..\mysql-connector-cpp\cdk\protobuf\protobuf-2.6.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\vcprojects\cdk\include;..\..\..\mysql-connector-cpp\cdk\include;..\..\..\mysql-connector-cpp\cdk\parser;..\..\..\mysql-connector-cpp\cdk\protobuf\protobuf-2.6.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
       <CompileAs>CompileAsCpp</CompileAs>
       <DisableSpecificWarnings>4702;4297;4512;4127;4100;4820;4571;4710;4514;4625;4626;4464;4711;4520;5026;5027</DisableSpecificWarnings>
@@ -175,14 +175,14 @@
     </Midl>
     <PreBuildEvent />
     <Lib>
-      <AdditionalDependencies>cdk_parser.lib;cdk_foundation.lib;cdk_mysqlx.lib;cdk_proto_mysqlx.lib;protobuf-lite.lib</AdditionalDependencies>
+      <AdditionalDependencies>protobuf-lite.lib;cdk_parser.lib;cdk_foundation.lib;cdk_mysqlx.lib;cdk_proto_mysqlx.lib;</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(OutDir);</AdditionalLibraryDirectories>
     </Lib>
     <ProjectReference />
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\mysql-connector-cpp\cdk\include;$(SolutionDir)..\vcprojects\cdk\include;$(SolutionDir)..\mysql-connector-cpp\cdk\parser;$(SolutionDir)..\mysql-connector-cpp\cdk\protobuf\protobuf-2.6.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\vcprojects\cdk\include;..\..\..\mysql-connector-cpp\cdk\include;..\..\..\mysql-connector-cpp\cdk\parser;..\..\..\mysql-connector-cpp\cdk\protobuf\protobuf-2.6.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
       <CompileAs>CompileAsCpp</CompileAs>
       <DisableSpecificWarnings>4702;4297;4512;4127;4100;4820;4571;4710;4514;4625;4626;4464;4711;4520;5026;5027</DisableSpecificWarnings>

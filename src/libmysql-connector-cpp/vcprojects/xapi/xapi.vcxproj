@@ -71,7 +71,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\mysql-connector-cpp\cdk\include;$(SolutionDir)..\vcprojects\cdk\include;..\..\mysql-connector-cpp\cdk\parser;..\..\mysql-connector-cpp\include;..\..\mysql-connector-cpp\cdk\extra\uuid\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\vcprojects\cdk\include;..\..\mysql-connector-cpp\cdk\include;..\..\mysql-connector-cpp\cdk\parser;..\..\mysql-connector-cpp\include;..\..\mysql-connector-cpp\cdk\extra\uuid\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -102,7 +102,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\mysql-connector-cpp\cdk\include;$(SolutionDir)..\vcprojects\cdk\include;..\..\mysql-connector-cpp\cdk\parser;..\..\mysql-connector-cpp\include;..\..\mysql-connector-cpp\cdk\extra\uuid\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\vcprojects\cdk\include;..\..\mysql-connector-cpp\cdk\include;..\..\mysql-connector-cpp\cdk\parser;..\..\mysql-connector-cpp\include;..\..\mysql-connector-cpp\cdk\extra\uuid\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -133,7 +133,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\mysql-connector-cpp\cdk\include;$(SolutionDir)..\vcprojects\cdk\include;..\..\mysql-connector-cpp\cdk\parser;..\..\mysql-connector-cpp\include;..\..\mysql-connector-cpp\cdk\extra\uuid\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\vcprojects\cdk\include;..\..\mysql-connector-cpp\cdk\include;..\..\mysql-connector-cpp\cdk\parser;..\..\mysql-connector-cpp\include;..\..\mysql-connector-cpp\cdk\extra\uuid\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
       <CompileAs>CompileAsCpp</CompileAs>
       <DisableSpecificWarnings>4702;4297;4512;4127;4244;4267;4127;4996;4702</DisableSpecificWarnings>
@@ -163,7 +163,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\mysql-connector-cpp\cdk\include;$(SolutionDir)..\vcprojects\cdk\include;..\..\mysql-connector-cpp\cdk\parser;..\..\mysql-connector-cpp\include;..\..\mysql-connector-cpp\cdk\extra\uuid\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\vcprojects\cdk\include;..\..\mysql-connector-cpp\cdk\include;..\..\mysql-connector-cpp\cdk\parser;..\..\mysql-connector-cpp\include;..\..\mysql-connector-cpp\cdk\extra\uuid\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
       <CompileAs>CompileAsCpp</CompileAs>
       <DisableSpecificWarnings>4702;4297;4512;4127;4244;4267;4127;4996;4702</DisableSpecificWarnings>
