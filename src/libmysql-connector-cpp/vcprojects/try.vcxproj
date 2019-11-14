@@ -110,8 +110,7 @@
       <AdditionalLibraryDirectories>$(OutDir);$(SolutionDir)..\thirdparty\libopenssl\lib\$(Platform)\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>G:/Sources/libmysql/vcprojects/Debug/try.lib</ImportLibrary>
-      <ProgramDataBaseFile>G:/Sources/libmysql/vcprojects/Debug/try.pdb</ProgramDataBaseFile>
+      <ImportLibrary>$(OutDir)$(TargetName).LIB</ImportLibrary>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -151,8 +150,7 @@
       <AdditionalLibraryDirectories>$(OutDir);$(SolutionDir)..\thirdparty\libopenssl\lib\$(Platform)\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>G:/Sources/libmysql/vcprojects/Debug/try.lib</ImportLibrary>
-      <ProgramDataBaseFile>G:/Sources/libmysql/vcprojects/Debug/try.pdb</ProgramDataBaseFile>
+      <ImportLibrary>$(OutDir)$(TargetName).LIB</ImportLibrary>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -188,12 +186,11 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>connector.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>libeay32.lib;ssleay32.lib;connector.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(OutDir);$(SolutionDir)..\thirdparty\libopenssl\lib\$(Platform)\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>G:/Sources/libmysql/vcprojects/Release/try.lib</ImportLibrary>
-      <ProgramDataBaseFile>G:/Sources/libmysql/vcprojects/Release/try.pdb</ProgramDataBaseFile>
+      <ImportLibrary>$(OutDir)$(TargetName).LIB</ImportLibrary>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -229,12 +226,11 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>connector.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>libeay32.lib;ssleay32.lib;connector.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(OutDir);$(SolutionDir)..\thirdparty\libopenssl\lib\$(Platform)\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>G:/Sources/libmysql/vcprojects/Release/try.lib</ImportLibrary>
-      <ProgramDataBaseFile>G:/Sources/libmysql/vcprojects/Release/try.pdb</ProgramDataBaseFile>
+      <ImportLibrary>$(OutDir)$(TargetName).LIB</ImportLibrary>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>

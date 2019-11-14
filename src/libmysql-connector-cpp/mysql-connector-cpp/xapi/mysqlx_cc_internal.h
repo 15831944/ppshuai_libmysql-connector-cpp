@@ -446,12 +446,13 @@ public:
 };
 
 
+/*
 struct mysqlx_row_struct
-  : public Mysqlx_diag
-  , public mysqlx::common::Row_impl<>
+	: public Mysqlx_diag
+	, public mysqlx::common::Row_impl<>
 {
-  using mysqlx::common::Row_impl<>::Row_impl;
+	using mysqlx::common::Row_impl<>::Row_impl;
 };
-
+*/
 
 #endif /* __MYSQLX_CC_INTERNAL_H__ */

@@ -32,6 +32,14 @@
 #define XAPI_INTERNAL_CRUD
 
 #include "../common/op_impl.h"
+#include "mysqlx_cc_internal.h"
+
+struct mysqlx_row_struct
+	: public Mysqlx_diag
+	, public mysqlx::common::Row_impl<>
+{
+	using mysqlx::common::Row_impl<>::Row_impl;
+};
 
 /*
   CRUD implementation
