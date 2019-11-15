@@ -41,7 +41,8 @@ int main(int argc, const char* argv[])
 try {
 
 	//const char   *url = (argc > 1 ? argv[1] : "mysqlx://test:123456@192.168.131.101:33060/testdb");
-	const char   *url = (argc > 1 ? argv[1] : "mysqlx://root@127.0.0.1:33060/testdb");
+	//const char* url = (argc > 1 ? argv[1] : "mysqlx://root@10.0.3.103:33060/testdb");
+	const char* url = (argc > 1 ? argv[1] : "mysqlx://test:123456@10.0.3.103:33060/testdb");
 
   cout << "Creating session on " << url << " ..." << endl;
 

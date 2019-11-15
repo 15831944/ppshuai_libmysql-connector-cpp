@@ -17,7 +17,7 @@ sudo yum install openssl openssl-devel
 
 3.cd build
 
-4.sudo cmake3 -DBUILD_STATIC=ON -DCMAKE_INSTALL_PREFIX=/usr .. --config Release
+4.sudo cmake3 -DBUILD_STATIC=ON -DCMAKE_INSTALL_PREFIX=/usr ..
 
 5.sudo cmake3 --build . --config Release
 
@@ -25,4 +25,4 @@ sudo yum install openssl openssl-devel
 
 7.sudo cp /usr/lib64/debug/libmysqlcppconn8-static.a /usr/lib64/libmysqlcppconn8-static.a -f
 
-8.sudo cp /usr/lib64/debug/libmysqlcppconn8-static.a -f
+8.sudo rm /usr/lib64/debug/libmysqlcppconn8-static.a -f

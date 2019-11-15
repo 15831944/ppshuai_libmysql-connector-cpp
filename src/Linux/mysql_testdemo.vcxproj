@@ -84,65 +84,49 @@
     <Link>
       <LibraryDependencies>mysqlcppconn8-static;crypto;ssl;pthread;</LibraryDependencies>
     </Link>
-    <ClCompile>
-      <AdditionalIncludeDirectories>/usr/local/mysql/connector-c++-8.0/include;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-    </ClCompile>
+    <ClCompile />
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
     <Link>
       <LibraryDependencies>mysqlcppconn8-static;crypto;ssl;pthread;</LibraryDependencies>
     </Link>
-    <ClCompile>
-      <AdditionalIncludeDirectories>/usr/local/mysql/connector-c++-8.0/include;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-    </ClCompile>
+    <ClCompile />
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
     <Link>
       <LibraryDependencies>mysqlcppconn8-static;crypto;ssl;pthread;</LibraryDependencies>
     </Link>
-    <ClCompile>
-      <AdditionalIncludeDirectories>/usr/local/mysql/connector-c++-8.0/include;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-    </ClCompile>
+    <ClCompile />
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
     <Link>
       <LibraryDependencies>mysqlcppconn8-static;crypto;ssl;pthread;</LibraryDependencies>
     </Link>
-    <ClCompile>
-      <AdditionalIncludeDirectories>/usr/local/mysql/connector-c++-8.0/include;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-    </ClCompile>
+    <ClCompile />
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Link>
       <LibraryDependencies>mysqlcppconn8-static;crypto;ssl;pthread;</LibraryDependencies>
     </Link>
-    <ClCompile>
-      <AdditionalIncludeDirectories>/usr/local/mysql/connector-c++-8.0/include;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-    </ClCompile>
+    <ClCompile />
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Link>
       <LibraryDependencies>mysqlcppconn8-static;crypto;ssl;pthread;</LibraryDependencies>
     </Link>
-    <ClCompile>
-      <AdditionalIncludeDirectories>/usr/local/mysql/connector-c++-8.0/include;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-    </ClCompile>
+    <ClCompile />
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
     <Link>
       <LibraryDependencies>mysqlcppconn8-static;crypto;ssl;pthread;</LibraryDependencies>
     </Link>
-    <ClCompile>
-      <AdditionalIncludeDirectories>/usr/local/mysql/connector-c++-8.0/include;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-    </ClCompile>
+    <ClCompile />
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
     <Link>
       <LibraryDependencies>mysqlcppconn8-static;crypto;ssl;pthread;</LibraryDependencies>
     </Link>
-    <ClCompile>
-      <AdditionalIncludeDirectories>/usr/local/mysql/connector-c++-8.0/include;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-    </ClCompile>
+    <ClCompile />
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />
